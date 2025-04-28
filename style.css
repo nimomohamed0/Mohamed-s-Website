@@ -19,8 +19,11 @@ nav {
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: #222;
+  color: black;
   font-weight: bold;
+  /* just added this*/
+  border-radius: 10px;
+  box-shadow: 0 6px 10px #aed6f1;
 }
 section {
   max-width: 800px;
@@ -82,6 +85,6 @@ footer {
 }
 
 .sentence {
-  color: gray; /* Change this to any color you prefer */
+  color: #aed6f1; /* Change this to any color you prefer */
   font-style: italic; /* Optional: Makes it stand out more */
 }
